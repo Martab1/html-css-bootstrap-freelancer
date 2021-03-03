@@ -1,4 +1,31 @@
 
+
+/* UTILITIES */
+
+.bg_blue{
+    background: #06274ae6;
+}
+
+.bg_green{
+    background:#56ad8d;
+}
+
+.center_text{
+    text-align: center;
+}
+
+/* LAYOUT */
+
+header.main_header{
+    padding-top:15px;
+    padding-bottom:15px;
+
+}
+
+
+
+
+
 /* FAKE CONTENT */
 
 /* general */
@@ -18,14 +45,14 @@
 /*portfoglio */
 
 .section_portfoglio .box{
-    margin-top:10px;
+     margin-top:10px;
     margin-bottom: 10px;
     height: 300px;
     border-radius: 10px;
 }
 
-.section_portfoglio .row .col-xs-12:first-child{
-    margin-top: 50px;
+.section_portfoglio h3{
+  padding:30px;
 }
 
 /* about */
@@ -46,30 +73,22 @@
     height:420px;
 }
 
+/* footer */
 
-
-/* UTILITIES */
-
-.bg_blue{
-    background: #06274ae6;
+footer .footer_1{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height:340px;
 }
 
-.bg_green{
-    background:#56ad8d;
-}
-
-.center_text{
-    text-align: center;
-}
-
-/* LAYOUT */
-
-header.main_header{
-    padding-top:10px;
-    padding-bottom:10px;
-
+footer .footer_2{
+    height:80px;
+    background:#061233e3;
 }
 
 
-
-
+@media screen and (min-width:992px ) {
+    .section_portfoglio .box{
+        
+    }
+ }
