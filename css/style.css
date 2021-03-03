@@ -22,10 +22,6 @@ header.main_header{
 
 }
 
-
-
-
-
 /* FAKE CONTENT */
 
 /* general */
@@ -86,9 +82,3 @@ footer .footer_2{
     background:#061233e3;
 }
 
-
-@media screen and (min-width:992px ) {
-    .section_portfoglio .box{
-        
-    }
- }
