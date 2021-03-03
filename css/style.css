@@ -15,7 +15,6 @@
     height: 420px;
 }
 
-
 /*portfoglio */
 
 .section_portfoglio .box{
@@ -29,9 +28,23 @@
     margin-top: 50px;
 }
 
+/* about */
+
+.about{
+    margin-top:20px;
+    height: 480px;
+}
+
+.about .box{
+    margin-top: 20px;
+}
 
 
+/* contact me */
 
+.contact_me{
+    height:420px;
+}
 
 
 
