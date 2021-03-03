@@ -1,0 +1,62 @@
+
+/* FAKE CONTENT */
+
+/* general */
+
+.box{
+    width:100%;
+    border:1px solid black;
+    background-color: lightgrey;
+}
+
+/*hero*/
+
+.section_hero {
+    height: 420px;
+}
+
+
+/*portfoglio */
+
+.section_portfoglio .box{
+    margin-top:10px;
+    margin-bottom: 10px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.section_portfoglio .row .col-xs-12:first-child{
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+/* UTILITIES */
+
+.bg_blue{
+    background: #06274ae6;
+}
+
+.bg_green{
+    background:#56ad8d;
+}
+
+.center_text{
+    text-align: center;
+}
+
+/* LAYOUT */
+
+header.main_header{
+    padding-top:10px;
+    padding-bottom:10px;
+
+}
+
+
+
+
