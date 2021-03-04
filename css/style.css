@@ -1,26 +1,99 @@
 
+/* GENERAL */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    padding-top:70px;
+
+    
+}
 
 /* UTILITIES */
 
 .bg_blue{
-    background: #06274ae6;
+    background: #2c3e50;
 }
 
 .bg_green{
-    background:#56ad8d;
+    background:#1abc9c;
 }
 
 .center_text{
     text-align: center;
 }
 
+.color_white{
+    color:#fff;
+}
+
+.padding_left{
+    padding-left: 15px;
+}
+
+.card{
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.text_center{
+    text-align: center;
+}
+
+
+
 /* LAYOUT */
 
-header.main_header{
-    padding-top:15px;
-    padding-bottom:15px;
 
+.section_portfoglio .card{
+    margin-top:10px;
+    margin-bottom: 10px;
 }
+
+
+/* HEADER */
+
+ header.main_header .navbar a {
+    font-weight: bold;
+    font-size: 20px;;
+    text-decoration: none;
+    color: #fff;
+} 
+
+
+header.main_header{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    z-index: 1;
+}
+
+header.main_header .navbar{
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+
+header.main_header .navbar-right a:hover{
+    color:#1abc9c;
+}
+
+
+/* HERO */
+
+.section_hero img{
+    width: 180px;
+    padding-top: 20px;
+}
+
+
+
+
+
+
+
 
 /* FAKE CONTENT */
 
@@ -40,12 +113,6 @@ header.main_header{
 
 /*portfoglio */
 
-.section_portfoglio .box{
-     margin-top:10px;
-    margin-bottom: 10px;
-    height: 300px;
-    border-radius: 10px;
-}
 
 .section_portfoglio h3{
   padding:30px;
@@ -79,6 +146,6 @@ footer .footer_1{
 
 footer .footer_2{
     height:80px;
-    background:#061233e3;
+    background:#233242 ;
 }
 
