@@ -232,11 +232,14 @@ footer .footer_1{
 } 
 
 
-
-
 footer .footer_2{
     height: 80px;
     background:#233242 ;
+}
+
+footer .footer_2 span{
+    font-size: 16px;
+    line-height: 80px;
 }
 
 
