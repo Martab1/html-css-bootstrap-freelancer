@@ -249,7 +249,7 @@ header.main_header .navbar-right a:hover{
     background-color: #04806dcf;
 }
 
-
+button:focus { outline: 0; box-shadow: none }
 
 /* FOOTER */
 
